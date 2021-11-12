@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+
+    android:padding="50dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/segoe_ui"
+        android:gravity="center"
+        android:text="Microsoft Teams"
+        android:textColor="@color/medium_slate_blue"
+        android:textSize="32sp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:src="@drawable/teams_logo" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:fontFamily="@font/segoe_ui"
+
+        android:text="Get started with your work, school or personal Microsoft account"
+        android:textAlignment="center"
+        android:textColor="@color/gray"
+        android:textSize="16sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:fontFamily="@font/segoe_ui"
+
+        android:text="Enter email, phone or Skype"
+        android:textAlignment="center"
+        android:textColor="@color/gray"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:width="200dp"
+        android:background="@drawable/roundedbutton"
+        android:fontFamily="@font/segoe_ui"
+        android:text="Sign in"
+        android:textAllCaps="false"
+        android:textSize="18sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
+
+        android:fontFamily="@font/segoe_ui"
+        android:text="Get help with signing in"
+        android:textColor="@color/medium_slate_blue" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginTop="8dp"
+        android:layout_weight="1"
+        android:scaleType="centerInside"
+        android:src="@drawable/msft_logo" />
+
+    <Button
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="10dp"
+        android:width="200dp"
+        android:background="@drawable/roundedbutton"
+        android:fontFamily="@font/segoe_ui"
+        android:text="Join a meeting"
+        android:textAllCaps="false"
+        android:textSize="18sp" />
+
+
+    <Button
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="10dp"
+        android:layout_weight="1"
+        android:width="200dp"
+        android:background="@drawable/roundedbutton"
+        android:fontFamily="@font/segoe_ui"
+        android:text="Sign up for free"
+        android:textAllCaps="false"
+
+        android:textSize="18sp" />
+</LinearLayout>
