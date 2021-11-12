@@ -10,11 +10,11 @@
         android:id="@+id/main_scr_btn_one"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Question One (MICROSOFT TEAMS)" />
+        android:text="Question One - SET A - (MICROSOFT TEAMS)" />
 
     <Button
         android:id="@+id/main_scr_btn_two"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Question Two" />
+        android:text="Question One - Set B - Log in App" />
 </LinearLayout>
