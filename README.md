@@ -2,6 +2,11 @@ LPU Android CA1 Submission - CA1
 
 | Key | Value | |--|--| | Name | Ankur Paul | | Section | K19HZ | | Roll No. | RKO103B41 |
 
+## Screenshots
+[Image 1](./screenshots/Screenshot%201.jpg)
+[Image 2](./screenshots/Screenshot%202.jpg)
+[Image 3](./screenshots/Screenshot%203.jpg)
+
 **Problem-1 Solution**
 
 ### Code: (Kotlin & XML)
