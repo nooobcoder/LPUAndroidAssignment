@@ -20,9 +20,11 @@ class MainActivity : AppCompatActivity() {
 
         val btnQuestionOne: Button = findViewById<Button>(R.id.main_scr_btn_one)
         val btnQuestionTwo: Button = findViewById<Button>(R.id.main_scr_btn_two)
+        val btnQuestionThree: Button = findViewById<Button>(R.id.main_scr_btn_three)
 
         btnQuestionOne.setOnClickListener { goToQuestionOne() }
         btnQuestionTwo.setOnClickListener { goToQuestionTwo() }
+        btnQuestionThree.setOnClickListener { goToQuestionThree() }
     }
 
     fun goToQuestionOne() {
@@ -31,5 +33,9 @@ class MainActivity : AppCompatActivity() {
 
     fun goToQuestionTwo() {
         startActivity(Intent(this@MainActivity, QuestionTwo::class.java))
+    }
+
+    fun goToQuestionThree() {
+        startActivity(Intent(this@MainActivity, QuestionThree::class.java))
     }
 }

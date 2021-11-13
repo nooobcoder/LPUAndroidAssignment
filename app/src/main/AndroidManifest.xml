@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ContinuousAssessmentOne">
         <activity
+            android:name=".QuestionThree"
+            android:exported="true" />
+        <activity
             android:name=".QuestionTwo"
             android:exported="true" />
         <activity
